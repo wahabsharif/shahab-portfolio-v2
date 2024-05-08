@@ -20,19 +20,10 @@ const page = () => {
                   <h2>
                     Let’s Talk For your <span>Next Projects</span>
                   </h2>
-                  <p>
-                    Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                    inventore veritatis
-                  </p>
                 </div>
-                <h6>Main Office</h6>
+                <h6>Contact Details</h6>
                 <div className="widget_contact_info mb-35">
                   <ul>
-                    <li>
-                      <i className="far fa-map-marker-alt" /> 55 Main Street,
-                      2nd block,
-                      <br /> New York City
-                    </li>
                     <li>
                       <i className="far fa-envelope" />{" "}
                       <a href="mailto:support@gmail.com">support@gmail.com</a>
@@ -191,7 +182,7 @@ const page = () => {
       </section>
       {/* Contact Page Area end */}
       {/* Location Map Area Start */}
-      <div className="contact-page-map pb-120 rpb-90 wow fadeInUp delay-0-2s">
+      {/* <div className="contact-page-map pb-120 rpb-90 wow fadeInUp delay-0-2s">
         <div className="container">
           <div className="our-location">
             <iframe
@@ -203,7 +194,7 @@ const page = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </NoxfolioLayout>
   );
 };
