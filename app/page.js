@@ -1,9 +1,9 @@
 import About from "@/components/About";
-import Blog from "@/components/Blog";
+// import Blog from "@/components/Blog";
 import Clients from "@/components/Clients";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
+// import Pricing from "@/components/Pricing";
 import Projects from "@/components/Projects";
 // import Resume from "@/components/Resume";
 import Services from "@/components/Services";
@@ -21,10 +21,10 @@ export default function Home() {
       <Skill />
       <Projects />
       <Testimonial />
-      <Pricing />
-      <Contact />
-      <Blog />
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
       <Clients />
+      <Contact />
     </NoxfolioLayout>
   );
 }

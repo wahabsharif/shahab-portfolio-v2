@@ -8,91 +8,76 @@ const Clients = () => {
           <div className="col-xl-12">
             <div className="section-title text-center pt-5 mb-65 wow fadeInUp delay-0-2s">
               <h6>
-                I’ve <span>1253+ Global Clients</span> &amp; lot’s of Project
+                I’ve <span>500+ Global Clients</span> &amp; lot’s of Project
                 Complete
               </h6>
             </div>
           </div>
         </div>
         <div className="client-logo-wrap">
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-2s">
               <img
-                src="assets/images/client-logos/client-logo1.png"
+                src="assets/images/client-logos/aamir.png"
                 alt="Client Logo"
               />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-3s">
               <img
-                src="assets/images/client-logos/client-logo2.png"
+                src="assets/images/client-logos/big-ben.png"
                 alt="Client Logo"
               />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-4s">
               <img
-                src="assets/images/client-logos/client-logo3.png"
+                src="assets/images/client-logos/chef.png"
                 alt="Client Logo"
               />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-5s">
-              <img
-                src="assets/images/client-logos/client-logo4.png"
-                alt="Client Logo"
-              />
+              <img src="assets/images/client-logos/hsm.png" alt="Client Logo" />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-6s">
               <img
-                src="assets/images/client-logos/client-logo5.png"
+                src="assets/images/client-logos/ilmi.png"
                 alt="Client Logo"
               />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-2s">
-              <img
-                src="assets/images/client-logos/client-logo6.png"
-                alt="Client Logo"
-              />
+              <img src="assets/images/client-logos/itl.png" alt="Client Logo" />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-3s">
               <img
-                src="assets/images/client-logos/client-logo7.png"
+                src="assets/images/client-logos/khass.png"
                 alt="Client Logo"
               />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-4s">
-              <img
-                src="assets/images/client-logos/client-logo8.png"
-                alt="Client Logo"
-              />
+              <img src="assets/images/client-logos/ktc.png" alt="Client Logo" />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-5s">
-              <img
-                src="assets/images/client-logos/client-logo9.png"
-                alt="Client Logo"
-              />
+              <img src="assets/images/client-logos/mtl.png" alt="Client Logo" />
             </a>
           </Link>
-          <Link legacyBehavior href="contact">
+          <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-6s">
-              <img
-                src="assets/images/client-logos/client-logo10.png"
-                alt="Client Logo"
-              />
+              <img src="assets/images/client-logos/ptc.png" alt="Client Logo" />
             </a>
           </Link>
         </div>
@@ -122,7 +107,7 @@ export const Clients2 = () => {
           <Link
             legacyBehavior
             className="client-logo-item wow fadeInUp delay-0-2s"
-            href="contact"
+            href="projects"
           >
             <img
               src="assets/images/client-logos/client-logo-two1.png"
@@ -132,7 +117,7 @@ export const Clients2 = () => {
           <Link
             legacyBehavior
             className="client-logo-item wow fadeInUp delay-0-3s"
-            href="contact"
+            href="projects"
           >
             <img
               src="assets/images/client-logos/client-logo-two2.png"
@@ -142,7 +127,7 @@ export const Clients2 = () => {
           <Link
             legacyBehavior
             className="client-logo-item wow fadeInUp delay-0-4s"
-            href="contact"
+            href="projects"
           >
             <img
               src="assets/images/client-logos/client-logo-two3.png"
@@ -152,7 +137,7 @@ export const Clients2 = () => {
           <Link
             legacyBehavior
             className="client-logo-item wow fadeInUp delay-0-5s"
-            href="contact"
+            href="projects"
           >
             <img
               src="assets/images/client-logos/client-logo-two4.png"
@@ -162,7 +147,7 @@ export const Clients2 = () => {
           <Link
             legacyBehavior
             className="client-logo-item wow fadeInUp delay-0-6s"
-            href="contact"
+            href="projects"
           >
             <img
               src="assets/images/client-logos/client-logo-two5.png"
