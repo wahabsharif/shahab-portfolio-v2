@@ -42,13 +42,13 @@ const page = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-instagram" />
                   </a>
                   <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-instagram" />
+                    <i className="fab fa-behance" />
                   </a>
                 </div>
               </div>

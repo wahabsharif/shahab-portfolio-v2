@@ -2,7 +2,7 @@ import Clients from "@/components/Clients";
 // import Faq from "@/components/Faq";
 import PageBanner from "@/components/PageBanner";
 import Services from "@/components/Services";
-import Testimonial from "@/components/Testimonial";
+// import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 // import Link from "next/link";
 
@@ -139,7 +139,7 @@ const About = () => {
       </section> */}
       {/* FAQs Area end */}
       {/* Testimonial Area start */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* Testimonial Area end */}
       {/* Client Log start */}
       <Clients />

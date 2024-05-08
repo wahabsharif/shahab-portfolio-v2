@@ -8,7 +8,7 @@ import Projects from "@/components/Projects";
 // import Resume from "@/components/Resume";
 import Services from "@/components/Services";
 import Skill from "@/components/Skill";
-import Testimonial from "@/components/Testimonial";
+// import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
       <Services />
       <Skill />
       <Projects />
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <Pricing /> */}
       {/* <Blog /> */}
       <Clients />
