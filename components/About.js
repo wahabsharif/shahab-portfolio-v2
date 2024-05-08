@@ -15,17 +15,19 @@ const About = () => {
                     Products
                   </h2>
                   <p>
-                    At vero eos et accusamus etodio dignissimos ducimus
-                    praesentium voluptatum corrupti quos dolores quas molestias
-                    excepturi sint occaecati cupiditate provident qui officia
-                    deserunt mollitia animi, id est laborum et dolorum
+                    Meet Shahab Munir, your digital services provider
+                    extraordinaire. With a knack for innovation and a keen eye
+                    for trends, Shahab delivers tailored solutions for
+                    businesses in the digital realm. From web development to
+                    e-commerce optimization, he's your go-to partner for online
+                    success.{" "}
                   </p>
                 </div>
                 <ul className="list-style-one two-column wow fadeInUp delay-0-2s">
                   <li>Branding &amp; Design</li>
                   <li>Digital Marketing</li>
                   <li>Web Development</li>
-                  <li>Product Design</li>
+                  <li>Social Media Management</li>
                 </ul>
                 <div className="about-info-box mt-25 wow fadeInUp delay-0-2s">
                   <div className="info-box-item">
@@ -41,7 +43,7 @@ const About = () => {
                     <div className="content">
                       <span>Make A Call</span>
                       <br />
-                      <a href="callto:+000(123)45688">+92 (317) 790 6015</a>
+                      <a href="callto:+923177906015">+92 (317) 790 6015</a>
                     </div>
                   </div>
                 </div>
@@ -57,7 +59,7 @@ const About = () => {
                 </div>
                 <div className="about-btn btn-two wow fadeInRight delay-0-5s">
                   <img src="assets/images/about/btn-image2.png" alt="Image" />
-                  <h6>Mark J. Collins</h6>
+                  <h6>Shahab Munir</h6>
                   <i className="fas fa-arrow-right" />
                 </div>
                 <div className="dot-shape">
@@ -85,85 +87,85 @@ const About = () => {
 };
 export default About;
 
-export const About2 = () => {
-  return (
-    <section
-      id="about"
-      className="about-area-two rel z-1 pt-130 rpt-100 pb-130 rpb-100"
-    >
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-7">
-            <div className="about-content-two rel z-2 rmb-55">
-              <div className="section-title mb-35 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">
-                  <i className="flaticon-asterisk-1" />
-                  Introduction of Myself
-                </span>
-                <h2>
-                  i,m a digital <span>designer</span> studio connecting brands
-                  to people through
-                </h2>
-              </div>
-              <div className="text pb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
-              <div className="row">
-                <div className="col-xl-3 col-sm-4 col-6">
-                  <div className="about-info-item wow fadeInUp delay-0-2s">
-                    <small>born In</small>
-                    <b>New york</b>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-sm-4 col-6">
-                  <div className="about-info-item wow fadeInUp delay-0-3s">
-                    <small>experience</small>
-                    <b>20+ Years</b>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-sm-4 col-6">
-                  <div className="about-info-item wow fadeInUp delay-0-4s">
-                    <small>date of birth</small>
-                    <b>27 June 1983</b>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-5">
-            <div className="about-counter-wrap">
-              <div className="row gap-40 justify-content-center">
-                <div className="col-lg-5 col-6 mx-5">
-                  <div className="counter-item counter-text-wrap mb-25 wow fadeInUp delay-0-2s">
-                    <Counter end={8} extraClass={"k"} />
-                    <span className="counter-title">project completed</span>
-                  </div>
-                </div>
-                <div className="col-lg-5 col-6">
-                  <div className="counter-item counter-text-wrap wow fadeInDown delay-0-2s">
-                    <Counter end={8} extraClass={"k"} />
-                    <span className="counter-title">Awward achievmentd</span>
-                  </div>
-                </div>
-                <div className="col-lg-5 col-6">
-                  <div className="counter-item counter-text-wrap wow fadeInDown delay-0-2s">
-                    <Counter end={80} extraClass={"k"} />
-                    <span className="counter-title">Satisfied customers</span>
-                  </div>
-                </div>
-              </div>
-              <div className="counter-logo">
-                <img
-                  className="wow zoomIn delay-0-2s"
-                  src="assets/images/shape/circle-logo.png"
-                  alt="Logo"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+// export const About2 = () => {
+//   return (
+//     <section
+//       id="about"
+//       className="about-area-two rel z-1 pt-130 rpt-100 pb-130 rpb-100"
+//     >
+//       <div className="container">
+//         <div className="row align-items-center">
+//           <div className="col-lg-7">
+//             <div className="about-content-two rel z-2 rmb-55">
+//               <div className="section-title mb-35 wow fadeInUp delay-0-2s">
+//                 <span className="sub-title mb-15">
+//                   <i className="flaticon-asterisk-1" />
+//                   Introduction of Myself
+//                 </span>
+//                 <h2>
+//                   i,m a digital <span>designer</span> studio connecting brands
+//                   to people through
+//                 </h2>
+//               </div>
+//               <div className="text pb-5">
+//                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+//                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
+//               </div>
+//               <div className="row">
+//                 <div className="col-xl-3 col-sm-4 col-6">
+//                   <div className="about-info-item wow fadeInUp delay-0-2s">
+//                     <small>born In</small>
+//                     <b>New york</b>
+//                   </div>
+//                 </div>
+//                 <div className="col-xl-3 col-sm-4 col-6">
+//                   <div className="about-info-item wow fadeInUp delay-0-3s">
+//                     <small>experience</small>
+//                     <b>20+ Years</b>
+//                   </div>
+//                 </div>
+//                 <div className="col-xl-3 col-sm-4 col-6">
+//                   <div className="about-info-item wow fadeInUp delay-0-4s">
+//                     <small>date of birth</small>
+//                     <b>27 June 1983</b>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//           <div className="col-lg-5">
+//             <div className="about-counter-wrap">
+//               <div className="row gap-40 justify-content-center">
+//                 <div className="col-lg-5 col-6 mx-5">
+//                   <div className="counter-item counter-text-wrap mb-25 wow fadeInUp delay-0-2s">
+//                     <Counter end={8} extraClass={"k"} />
+//                     <span className="counter-title">project completed</span>
+//                   </div>
+//                 </div>
+//                 <div className="col-lg-5 col-6">
+//                   <div className="counter-item counter-text-wrap wow fadeInDown delay-0-2s">
+//                     <Counter end={8} extraClass={"k"} />
+//                     <span className="counter-title">Awward achievmentd</span>
+//                   </div>
+//                 </div>
+//                 <div className="col-lg-5 col-6">
+//                   <div className="counter-item counter-text-wrap wow fadeInDown delay-0-2s">
+//                     <Counter end={80} extraClass={"k"} />
+//                     <span className="counter-title">Satisfied customers</span>
+//                   </div>
+//                 </div>
+//               </div>
+//               <div className="counter-logo">
+//                 <img
+//                   className="wow zoomIn delay-0-2s"
+//                   src="assets/images/shape/circle-logo.png"
+//                   alt="Logo"
+//                 />
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
