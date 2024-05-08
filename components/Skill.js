@@ -3,50 +3,50 @@ import Link from "next/link";
 const items = [
   {
     id: 1,
-    name: "Figma",
-    image: "assets/images/skills/skill1.png",
+    name: "PhotoShop",
+    image: "assets/images/skills/photoshop.png",
     value: "95",
   },
   {
     id: 2,
-    name: "Framer",
-    image: "assets/images/skills/skill2.png",
+    name: "Illustrator",
+    image: "assets/images/skills/illustrator.png",
     value: "83",
   },
   {
     id: 3,
-    name: "Photoshop",
-    image: "assets/images/skills/skill3.png",
+    name: "After Effect",
+    image: "assets/images/skills/after-effect.png",
     value: "93",
   },
   {
     id: 4,
-    name: "Wordpress",
-    image: "assets/images/skills/skill4.png",
+    name: "Premiere",
+    image: "assets/images/skills/premiere.png",
     value: "84",
   },
   {
     id: 5,
-    name: "Angular",
-    image: "assets/images/skills/skill5.png",
+    name: "WordPress",
+    image: "assets/images/skills/wordpress.png",
     value: "65",
   },
   {
     id: 6,
-    name: "Webflow",
-    image: "assets/images/skills/skill6.png",
+    name: "Fluter",
+    image: "assets/images/skills/fluter.png",
     value: "86",
   },
   {
     id: 7,
     name: "Python",
-    image: "assets/images/skills/skill7.png",
+    image: "assets/images/skills/python.png",
     value: "62",
   },
   {
     id: 8,
-    name: "Sketch",
-    image: "assets/images/skills/skill8.png",
+    name: "Next Js",
+    image: "assets/images/skills/next-js.png",
     value: "94",
   },
 ];
@@ -65,9 +65,9 @@ const Skill = () => {
                     Let’s Explore Popular <span>Skills &amp; Experience</span>
                   </h2>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus to voluptatem
-                    accusantium doloremque laudantium, totam rem aperiamc eaque
-                    ipsa quae ab illo inventore veritatis
+                    PhotoShop and Illustrator for graphics, After Effects and
+                    Premiere Pro for video, Flutter and Next.js for web, Python
+                    for programming.{" "}
                   </p>
                 </div>
                 <Link legacyBehavior href="/about">
