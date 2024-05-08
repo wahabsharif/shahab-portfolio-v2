@@ -27,12 +27,8 @@ export default class Testimonial extends Component {
                       Clients Testimonials
                     </span>
                     <h2>
-                      I’ve 1253+ Clients <span>Feedback</span>
+                      I’ve 500+ Clients <span>Feedback</span>
                     </h2>
-                    <p>
-                      Sed ut perspiciatis unde omnin natus totam rem aperiam
-                      eaque inventore veritatis
-                    </p>
                   </div>
                   <div className="slider-arrows">
                     <button
