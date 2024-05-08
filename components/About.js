@@ -35,7 +35,9 @@ const About = () => {
                     <div className="content">
                       <span>Email Us</span>
                       <br />
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:shahabmunir98@gmail.com">
+                        shahabmunir98@gmail.com
+                      </a>
                     </div>
                   </div>
                   <div className="info-box-item">

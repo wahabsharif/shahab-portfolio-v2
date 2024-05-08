@@ -26,7 +26,9 @@ const page = () => {
                   <ul>
                     <li>
                       <i className="far fa-envelope" />{" "}
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:shahabmunir98@gmail.com">
+                        shahabmunir98@gmail.com
+                      </a>
                     </li>
                     <li>
                       <i className="far fa-phone" />{" "}
@@ -89,7 +91,7 @@ const page = () => {
                           name="email"
                           className="form-control"
                           defaultValue=""
-                          placeholder="support@gmail.com"
+                          placeholder="shahabmunir98@gmail.com"
                           required=""
                           data-error="Please enter your Email"
                         />

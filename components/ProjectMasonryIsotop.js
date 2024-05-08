@@ -41,7 +41,7 @@ const ProjectMasonryIsotop = () => {
           className={`c-pointer ${activeBtn("*")}`}
           onClick={handleFilterKeyChange("*")}
         >
-          Show All
+          All
         </li>
         <li
           className={`c-pointer ${activeBtn("design")}`}
@@ -85,7 +85,7 @@ const ProjectMasonryIsotop = () => {
           <div className="project-item style-three wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img
-                src="assets/images/projects/project-masonry1.jpg"
+                src="assets/images/projects/branding/branding-1.png"
                 alt="Project"
               />
             </div>
@@ -98,7 +98,70 @@ const ProjectMasonryIsotop = () => {
               <span className="sub-title">Product Design</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Branding For PTC
+                </Link>
+              </h4>
+            </div>
+          </div>
+          <div className="project-item style-three wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/branding/branding-1.png"
+                alt="Project"
+              />
+            </div>
+            <div className="project-content">
+              <Link legacyBehavior href="/project-details">
+                <a className="project-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Branding For PTC
+                </Link>
+              </h4>
+            </div>
+          </div>
+          <div className="project-item style-three wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/branding/branding-1.png"
+                alt="Project"
+              />
+            </div>
+            <div className="project-content">
+              <Link legacyBehavior href="/project-details">
+                <a className="project-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Branding For PTC
+                </Link>
+              </h4>
+            </div>
+          </div>
+          <div className="project-item style-three wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/branding/branding-1.png"
+                alt="Project"
+              />
+            </div>
+            <div className="project-content">
+              <Link legacyBehavior href="/project-details">
+                <a className="project-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Branding For PTC
                 </Link>
               </h4>
             </div>

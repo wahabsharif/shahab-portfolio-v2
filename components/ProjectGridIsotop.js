@@ -41,13 +41,7 @@ const ProjectGridIsotop = () => {
           className={`c-pointer ${activeBtn("*")}`}
           onClick={handleFilterKeyChange("*")}
         >
-          Show All
-        </li>
-        <li
-          className={`c-pointer ${activeBtn("design")}`}
-          onClick={handleFilterKeyChange("design")}
-        >
-          Design
+          All
         </li>
         <li
           className={`c-pointer ${activeBtn("branding")}`}
@@ -56,36 +50,46 @@ const ProjectGridIsotop = () => {
           Branding
         </li>
         <li
-          className={`c-pointer ${activeBtn("marketing")}`}
-          onClick={handleFilterKeyChange("marketing")}
+          className={`c-pointer ${activeBtn("flayers")}`}
+          onClick={handleFilterKeyChange("flayers")}
         >
-          Marketing
+          Flayers
         </li>
         <li
-          className={`c-pointer ${activeBtn("development")}`}
-          onClick={handleFilterKeyChange("development")}
+          className={`c-pointer ${activeBtn("logo")}`}
+          onClick={handleFilterKeyChange("logo")}
         >
-          Development
+          Logo
         </li>
         <li
-          className={`c-pointer ${activeBtn("apps")}`}
-          onClick={handleFilterKeyChange("apps")}
+          className={`c-pointer ${activeBtn("social-media")}`}
+          onClick={handleFilterKeyChange("social-media")}
         >
-          Mobile Apps
+          Social Media
         </li>
         <li
+          className={`c-pointer ${activeBtn("stationary")}`}
+          onClick={handleFilterKeyChange("stationary")}
+        >
+          Stationary
+        </li>
+        {/* <li
           className={`c-pointer ${activeBtn("graphics")}`}
           onClick={handleFilterKeyChange("graphics")}
         >
           Graphics
-        </li>
+        </li> */}
       </ul>
       <div className="row project-masonry-active">
-        <div className="col-lg-6 item branding development">
+        {/* Branding */}
+        <div className="col-lg-3 item branding">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img
+                src="assets/images/projects/branding/branding-2.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -93,19 +97,116 @@ const ProjectGridIsotop = () => {
             </div>
             <div className="project-content">
               <span className="sub-title">Product Design</span>
-              <h3>
+              <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Branding For PTL
                 </Link>
-              </h3>
+              </h4>
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item design marketing graphics">
+        <div className="col-lg-3 item branding">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/branding/branding-3.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Branding For PTC
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item branding">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/branding/branding-4.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Branding For PTC
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item branding">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/branding/branding-5.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Branding For PTC
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item branding">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/branding/branding-1.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Branding For PTC
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* flayers */}
+        <div className="col-lg-3 item flayers">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/projects/project2.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img
+                src="assets/images/projects/flayers/flayer-2.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -113,19 +214,70 @@ const ProjectGridIsotop = () => {
             </div>
             <div className="project-content">
               <span className="sub-title">Product Design</span>
-              <h3>
+              <h4>
                 <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                  Flayers Design For PTC
                 </Link>
-              </h3>
+              </h4>
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item development graphics">
+        <div className="col-lg-3 item flayers">
+          <div className="project-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/flayers/flayer-3.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Flayers Design For PTC
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item flayers">
+          <div className="project-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/flayers/flayer-1.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Flayers Design For SHATCO
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* Logos */}
+        <div className="col-lg-3 item logo">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
-              <img src="assets/images/projects/project3.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img
+                src="assets/images/projects/logos/logo-5.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -133,19 +285,185 @@ const ProjectGridIsotop = () => {
             </div>
             <div className="project-content">
               <span className="sub-title">Graphics Design</span>
-              <h3>
+              <h4>
                 <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                  Logo Design For Fighters Gujrat
                 </Link>
-              </h3>
+              </h4>
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item design development apps">
+        <div className="col-lg-3 item logo">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/logos/logo-6.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Graphics Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Logo Design For Gujranwala Knights
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item logo">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/logos/logo-7.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Graphics Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Logo Design For Multan Smashers
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item logo">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/logos/logo-8.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Graphics Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Logo Design For Sialkot Lions
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item logo">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/logos/logo-9.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Graphics Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Logo Design For Pindi Boys
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item logo">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/logos/logo-10.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Graphics Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Logo Design For Sargodha Shaheens
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item logo">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/logos/logo-11.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Graphics Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Logo Design For PTL
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item logo">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/logos/logo-4.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Graphics Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Logo Design For Lahore Stallions
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* Social Media */}
+        <div className="col-lg-3 item design social-media">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/projects/project4.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img
+                src="assets/images/projects/social-media/social-media-1.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -153,39 +471,206 @@ const ProjectGridIsotop = () => {
             </div>
             <div className="project-content">
               <span className="sub-title">Product Design</span>
-              <h3>
+              <h4>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Social Media Post Design For Castle heights
                 </Link>
-              </h3>
+              </h4>
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item branding marketing graphics">
-          <div className="project-item style-two wow fadeInUp delay-0-2s">
+        <div className="col-lg-3 item design social-media">
+          <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
-              <img src="assets/images/projects/project5.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <img
+                src="assets/images/projects/social-media/social-media-2.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Design &amp; Branding</span>
-              <h3>
+              <span className="sub-title">Product Design</span>
+              <h4>
                 <Link legacyBehavior href="project-details">
-                  Creative Graphics Design
+                  Social Media Post Design For PTC
                 </Link>
-              </h3>
+              </h4>
             </div>
           </div>
         </div>
-        <div className="col-lg-6 item design marketing apps">
+        <div className="col-lg-3 item design social-media">
+          <div className="project-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/social-media/social-media-3.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Social Media Post Design For Statesmen
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item design social-media">
+          <div className="project-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/social-media/social-media-4.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Social Media Post Design For Khaas
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item design social-media">
+          <div className="project-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/social-media/social-media-5.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Social Media Post Design For GCC
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item design social-media">
+          <div className="project-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/social-media/social-media-6.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Product Design</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Social Media Post Design For Pearl Kami
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* Stationary */}
+        <div className="col-lg-3 item stationary">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/stationery/stationery-2.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Design &amp; Stationery</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Stationery Design For Castle Heights
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item stationary">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/stationery/stationery-3.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Design &amp; Stationery</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Stationery Design For Castle Heights
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item stationary">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/stationery/stationery-1.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Design &amp; Stationery</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Stationery Design For Castle Heights
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="col-lg-3 item design marketing apps">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img src="assets/images/projects/project6.jpg" alt="Project" />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="#">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -193,14 +678,14 @@ const ProjectGridIsotop = () => {
             </div>
             <div className="project-content">
               <span className="sub-title">Product Design</span>
-              <h3>
+              <h4>
                 <Link legacyBehavior href="project-details">
                   Design &amp; Branding Mokeup
                 </Link>
-              </h3>
+              </h4>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );

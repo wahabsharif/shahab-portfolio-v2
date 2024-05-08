@@ -64,7 +64,7 @@ const Contact = () => {
                         name="email"
                         className="form-control"
                         defaultValue=""
-                        placeholder="support@gmail.com"
+                        placeholder="shahabmunir98@gmail.com"
                         required=""
                         data-error="Please enter your Email"
                       />
