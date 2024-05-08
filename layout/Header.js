@@ -3,22 +3,22 @@
 import { noxfolioUtilits } from "@/utility";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import MultiMenu, { OnePageMenu } from "./Menu";
+import MultiMenu from "./Menu";
 
-const Header = ({ header, onePageMenu }) => {
+const Header = ({ header }) => {
   switch (header) {
     case 1:
-      return <Header1 onePageMenu={onePageMenu} />;
+      return <Header1 />;
     case 2:
-      return <Header2 onePageMenu={onePageMenu} />;
+      return <Header2 />;
 
     default:
-      return <Header1 onePageMenu={onePageMenu} />;
+      return <Header1 />;
   }
 };
 export default Header;
 
-const Header1 = ({ onePageMenu }) => {
+const Header1 = () => {
   useEffect(() => {
     noxfolioUtilits.stickyNav();
   }, []);
@@ -81,7 +81,7 @@ const Header1 = ({ onePageMenu }) => {
                     toggle ? "show" : ""
                   }`}
                 >
-                  {onePageMenu ? <OnePageMenu /> : <MultiMenu />}
+                  <MultiMenu />
                 </div>
               </nav>
               {/* Main Menu End*/}

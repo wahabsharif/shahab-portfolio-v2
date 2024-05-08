@@ -5,20 +5,14 @@ import Footer from "./Footer";
 import Header from "./Header";
 import SideBar from "./SideBar";
 
-const NoxfolioLayout = ({
-  children,
-  header,
-  footer,
-  noFooter,
-  onePageMenu,
-}) => {
+const NoxfolioLayout = ({ children, header, footer, noFooter }) => {
   useEffect(() => {
     noxfolioUtilits.animaiton();
   }, []);
 
   return (
     <div className="page-wrapper">
-      <Header header={header} onePageMenu={onePageMenu} />
+      <Header header={header} />
       <SideBar />
       {children}
       {!noFooter && <Footer footer={footer} />}
