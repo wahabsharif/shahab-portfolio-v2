@@ -20,22 +20,25 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
+              <img src="assets/images/projects/logos/logo-1.png" alt="LOGO" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
               <h2>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                <Link legacyBehavior href="projects">
+                  Logo
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                A logo is a visual symbol or graphic mark that represents a
+                brand, company, or organization. It serves as a key element of
+                identity, conveying the values, personality, and essence of the
+                entity it represents. Logos are designed to be memorable,
+                recognizable, and impactful across various mediums and contexts.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="projects">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -46,22 +49,28 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project2.jpg" alt="Project" />
+              <img
+                src="assets/images/projects/social-media/social-media-1.png"
+                alt="Social Media Posts"
+              />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
               <h2>
-                <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                <Link legacyBehavior href="projects">
+                  Social Media Post Design
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Introducing the emblem of your brand! A logo is more than just a
+                graphic; it's the face of your identity. It captures your
+                essence and values, ensuring you're recognized and remembered
+                across all platforms. Let your logo speak volumes on social
+                media!{" "}
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="projects">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -72,22 +81,27 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project3.jpg" alt="Project" />
+              <img
+                src="assets/images/projects/flayers/flayer-1.png"
+                alt="Project"
+              />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
               <h2>
-                <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                <Link legacyBehavior href="projects">
+                  Flayer Design
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                "Unlock the power of captivating Flayer Designs! Our creations
+                blend vibrant colors, compelling typography, and striking
+                visuals to convey your message effectively. Stand out and leave
+                a lasting impression with our attention-grabbing designs."{" "}
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="projects">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -98,22 +112,28 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project4.jpg" alt="Project" />
+              <img
+                src="assets/images/projects/branding/branding-1.png"
+                alt="Project"
+              />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
               <h2>
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Development
+                <Link legacyBehavior href="projects">
+                  Branding Design
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                "Branding: Your unique story, beautifully told. We craft
+                memorable brand identities that resonate with your audience,
+                from logo design to cohesive visual elements. Let us elevate
+                your brand presence and leave a lasting impression in the hearts
+                and minds of your customers."{" "}
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="projects">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -171,7 +191,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two1.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="projects">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -180,7 +200,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="projects">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -195,7 +215,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two2.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="projects">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -204,7 +224,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="projects">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -219,7 +239,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two3.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="projects">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -228,7 +248,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="projects">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -243,7 +263,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two4.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="projects">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -252,7 +272,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="projects">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -267,7 +287,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two5.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="projects">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -276,7 +296,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="projects">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -286,7 +306,7 @@ export const Projects2 = () => {
           </div>
           <div className="col-md-6 align-self-center">
             <div className="project-details-btn mb-50">
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="projects">
                 <a className="more-btn wow zoomIn delay-0-2s">
                   <span>More</span>
                   <i className="fal fa-arrow-up" />
