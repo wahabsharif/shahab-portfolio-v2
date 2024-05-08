@@ -4384,6 +4384,7 @@ h6,
   z-index: 9;
   padding: 2px 0;
   position: relative;
+  width: 150px
 }
 
 .main-header .nice-select .current {
@@ -4536,6 +4537,7 @@ h6,
 
 .main-menu .mobile-logo {
   margin-right: auto;
+  width: 150px
 }
 
 @media only screen and (max-width: 575px) {
