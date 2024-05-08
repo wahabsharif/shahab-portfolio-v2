@@ -41,7 +41,7 @@ const About = () => {
                     <div className="content">
                       <span>Make A Call</span>
                       <br />
-                      <a href="callto:+000(123)45688">+880 (123) 456 88</a>
+                      <a href="callto:+000(123)45688">+92 (317) 790 6015</a>
                     </div>
                   </div>
                 </div>

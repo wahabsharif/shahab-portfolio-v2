@@ -83,7 +83,7 @@ const Contact = () => {
                         name="phone_number"
                         className="form-control"
                         defaultValue=""
-                        placeholder="+880 (123) 456 88"
+                        placeholder="+92 (317) 790 6015"
                         required=""
                         data-error="Please enter your Phone Number"
                       />

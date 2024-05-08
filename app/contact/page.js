@@ -39,7 +39,7 @@ const page = () => {
                     </li>
                     <li>
                       <i className="far fa-phone" />{" "}
-                      <a href="callto:+880(123)45688">+880 (123) 456 88</a>
+                      <a href="callto:+923177906015">+92 (317) 790 6015</a>
                     </li>
                   </ul>
                 </div>
@@ -117,7 +117,7 @@ const page = () => {
                           name="phone_number"
                           className="form-control"
                           defaultValue=""
-                          placeholder="+880 (123) 456 88"
+                          placeholder="+92 (317) 790 6015"
                           required=""
                           data-error="Please enter your Phone Number"
                         />
