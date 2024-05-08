@@ -60,7 +60,7 @@ const Services = ({ extraClass }) => {
                   <h4>{service.title}</h4>
                   <p>{service.text}</p>
                 </div>
-                <Link legacyBehavior href="/#">
+                <Link legacyBehavior href="/services">
                   <a className="details-btn">
                     <i className="fas fa-arrow-right" />
                   </a>
