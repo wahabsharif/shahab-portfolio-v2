@@ -5,32 +5,32 @@ const Services = ({ extraClass }) => {
     {
       id: 1,
       title: "Brand Identity Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 2,
       title: "Website Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 3,
       title: "Mobile Application Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 4,
       title: "Motion Graphics Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 5,
       title: "Website Development",
-      text: "Dignissimos ducimus blanditiis praesen",
+      // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 6,
       title: "SEO & Digital Marketing",
-      text: "Dignissimos ducimus blanditiis praesen",
+      // text: "Dignissimos ducimus blanditiis praesen",
     },
   ];
   return (
@@ -60,7 +60,7 @@ const Services = ({ extraClass }) => {
                   <h4>{service.title}</h4>
                   <p>{service.text}</p>
                 </div>
-                <Link legacyBehavior href="/services">
+                <Link legacyBehavior href="/projects">
                   <a className="details-btn">
                     <i className="fas fa-arrow-right" />
                   </a>

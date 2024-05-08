@@ -1,5 +1,5 @@
 import PageBanner from "@/components/PageBanner";
-import Pricing from "@/components/Pricing";
+// import Pricing from "@/components/Pricing";
 import Services from "@/components/Services";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import Link from "next/link";
@@ -45,10 +45,6 @@ const ServicePage = () => {
                   <h2>
                     Real <span>Problem Solutions</span> Experience
                   </h2>
-                  <p>
-                    At vero eos et accusamus etodio dignissimos ducimus praesen
-                    tium voluptat corrupti quos dolores quas molestias{" "}
-                  </p>
                 </div>
                 <ul className="list-style-two pb-50">
                   <li>5+ Years Of Experience</li>
@@ -80,7 +76,7 @@ const ServicePage = () => {
       {/* What I Do Area end */}
       <Services extraClass={"bgc-black"} />
       {/* Pricing Area start */}
-      <Pricing extraClass={"pb-100"} />
+      {/* <Pricing extraClass={"pb-100"} /> */}
     </NoxfolioLayout>
   );
 };

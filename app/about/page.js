@@ -4,7 +4,7 @@ import PageBanner from "@/components/PageBanner";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
-import Link from "next/link";
+// import Link from "next/link";
 
 export const metadata = {
   title: "About Me",
