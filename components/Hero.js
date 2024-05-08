@@ -2,8 +2,8 @@ import Link from "next/link";
 import Counter from "./Counter";
 
 const counterData = [
-  { id: 1, text: "Years Of Experience", value: "13", valueType: "plus" },
-  { id: 2, text: "Project Complete", value: "8", valueType: "k-plus" },
+  { id: 1, text: "Years Of Experience", value: "5", valueType: "plus" },
+  { id: 2, text: "Project Complete", value: "2", valueType: "k-plus" },
   { id: 3, text: "Client Satisfactions", value: "99", valueType: "percent" },
 ];
 
@@ -16,21 +16,18 @@ const Hero = () => {
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
               <span className="h2">Hello, i’m </span>
               <h1>
-                <b>Roy C. Jones</b> web designer
+                <b>Shahab Munir</b> Graphic designer
               </h1>
               <p>
-                We denounce with righteous indignation dislike demoralized by
-                the charms of pleasure
+                We are a comprehensive agency offering website design,
+                development, and digital marketing services, with a focus on SEO
+                and content marketing strategies aimed at expanding brand
+                presence and recognition.{" "}
               </p>
               <div className="hero-btns">
                 <Link legacyBehavior href="/contact">
                   <a className="theme-btn">
                     Hire Me <i className="far fa-angle-right" />
-                  </a>
-                </Link>
-                <Link legacyBehavior href="/contact">
-                  <a className="read-more">
-                    Download Resume <i className="far fa-angle-right" />
                   </a>
                 </Link>
               </div>
@@ -49,7 +46,7 @@ const Hero = () => {
           <div className="col-lg-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
-              <img src="assets/images/hero/me.png" alt="Author" />
+              {/* <img src="assets/images/hero/me.png" alt="Author" /> */}
               <div className="progress-shape">
                 <img
                   src="assets/images/hero/progress-shape.png"
@@ -77,46 +74,46 @@ const Hero = () => {
 };
 export default Hero;
 
-export const Hero2 = () => {
-  return (
-    <div id="home" className="hero-area-two pt-150 rel z-2">
-      <div className="container rel z-3">
-        <div className="hero-two-content">
-          <span className="sub-title wow fadeInLeft delay-0-1s">
-            <i className="flaticon-asterisk-1" /> UI/UX Designer
-          </span>
-          <span className="title wow fadeInLeft delay-0-2s">
-            Hello <small>i,m</small>
-          </span>
-          <span className="name wow fadeInRight delay-0-4s">henry gayle</span>
-          <span className="designations wow fadeInLeft delay-0-6s">
-            <span>Ux</span> Designer
-          </span>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-xl-6 col-lg-7">
-            <div className="author-image-part wow fadeIn delay-0-3s">
-              <div className="bg-circle" />
-              <img src="assets/images/hero/hero-two.png" alt="Author" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <a href="#about" className="scroll-down">
-        <img src="assets/images/hero/scroll-down.png" alt="" />
-      </a>
-      <div className="bg-lines">
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-        <span />
-      </div>
-    </div>
-  );
-};
+// export const Hero2 = () => {
+//   return (
+//     <div id="home" className="hero-area-two pt-150 rel z-2">
+//       <div className="container rel z-3">
+//         <div className="hero-two-content">
+//           <span className="sub-title wow fadeInLeft delay-0-1s">
+//             <i className="flaticon-asterisk-1" /> UI/UX Designer
+//           </span>
+//           <span className="title wow fadeInLeft delay-0-2s">
+//             Hello <small>i,m</small>
+//           </span>
+//           <span className="name wow fadeInRight delay-0-4s">henry gayle</span>
+//           <span className="designations wow fadeInLeft delay-0-6s">
+//             <span>Ux</span> Designer
+//           </span>
+//         </div>
+//         <div className="row justify-content-center">
+//           <div className="col-xl-6 col-lg-7">
+//             <div className="author-image-part wow fadeIn delay-0-3s">
+//               <div className="bg-circle" />
+//               <img src="assets/images/hero/hero-two.png" alt="Author" />
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//       <a href="#about" className="scroll-down">
+//         <img src="assets/images/hero/scroll-down.png" alt="" />
+//       </a>
+//       <div className="bg-lines">
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//         <span />
+//       </div>
+//     </div>
+//   );
+// };
