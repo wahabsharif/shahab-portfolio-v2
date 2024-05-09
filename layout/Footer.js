@@ -89,6 +89,12 @@ const Footer1 = () => {
                 <h6 className="footer-title">Contact</h6>
                 <ul>
                   <li>
+                    <i className="far fa-location" />
+                    <a href="#">
+                      Chak Shahzad, Bahria Enclave Road, Islamabad.
+                    </a>
+                  </li>
+                  <li>
                     <i className="far fa-envelope" />{" "}
                     <a href="mailto:shahabmunir98@gmail.com">
                       shahabmunir98@gmail.com
@@ -121,16 +127,18 @@ const Footer1 = () => {
             <div className="col-lg-6 text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
-                  <a href="#">Facebook</a>
+                  <a href="https://www.facebook.com/shahabmunir.me">Facebook</a>
                 </li>
                 <li>
-                  <a href="#">Behance</a>
+                  <a href="https://www.behance.net/shahabmunir">Behance</a>
                 </li>
                 <li>
                   <a href="#">Instagram</a>
                 </li>
                 <li>
-                  <a href="#">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/shahab-munir-48b208213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    LinkedIn
+                  </a>
                 </li>
               </ul>
             </div>

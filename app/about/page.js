@@ -63,7 +63,7 @@ const About = () => {
                   <h6>Experience Designer</h6>
                   <i className="fas fa-arrow-right" />
                 </div>
-                <div className="dot-shape one">
+                {/* <div className="dot-shape one">
                   <img
                     src="assets/images/shape/about-dots-two.png"
                     alt="Shape"
@@ -74,7 +74,7 @@ const About = () => {
                     src="assets/images/shape/about-dots-two.png"
                     alt="Shape"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

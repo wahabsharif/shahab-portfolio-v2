@@ -50,10 +50,10 @@ const ProjectGridIsotop = () => {
           Branding
         </li>
         <li
-          className={`c-pointer ${activeBtn("flayers")}`}
-          onClick={handleFilterKeyChange("flayers")}
+          className={`c-pointer ${activeBtn("flyers")}`}
+          onClick={handleFilterKeyChange("flyers")}
         >
-          Flayers
+          Flyers
         </li>
         <li
           className={`c-pointer ${activeBtn("logo")}`}
@@ -96,10 +96,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Brandign</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Branding For PTL
+                  PTL
                 </Link>
               </h4>
             </div>
@@ -119,10 +119,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Branding</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Branding For PTC
+                  PTRL
                 </Link>
               </h4>
             </div>
@@ -142,10 +142,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Branding</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Branding For PTC
+                  ITRL
                 </Link>
               </h4>
             </div>
@@ -165,10 +165,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Branding</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Branding For PTC
+                  PTH
                 </Link>
               </h4>
             </div>
@@ -188,22 +188,22 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Branding</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Branding For PTC
+                  PTC
                 </Link>
               </h4>
             </div>
           </div>
         </div>
 
-        {/* flayers */}
-        <div className="col-lg-3 item flayers">
+        {/* flyers */}
+        <div className="col-lg-3 item flyers">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/flayers/flayer-2.png"
+                src="assets/images/projects/flyers/flyer-2.png"
                 alt="Project"
               />
               <Link legacyBehavior href="#">
@@ -213,20 +213,20 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flyers</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Flayers Design For PTC
+                  PTC
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-lg-3 item flayers">
+        <div className="col-lg-3 item flyers">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/flayers/flayer-3.png"
+                src="assets/images/projects/flyers/flyer-3.png"
                 alt="Project"
               />
               <Link legacyBehavior href="#">
@@ -236,20 +236,20 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flyer</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Flayers Design For PTC
+                  PTC
                 </Link>
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-lg-3 item flayers">
+        <div className="col-lg-3 item flyers">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
-                src="assets/images/projects/flayers/flayer-1.png"
+                src="assets/images/projects/flyers/flyer-1.png"
                 alt="Project"
               />
               <Link legacyBehavior href="#">
@@ -259,10 +259,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Flyer</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Flayers Design For SHATCO
+                  SHATCO
                 </Link>
               </h4>
             </div>
@@ -284,10 +284,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Logo</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Logo Design For Fighters Gujrat
+                  Fighters Gujrat
                 </Link>
               </h4>
             </div>
@@ -307,10 +307,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Logo</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Logo Design For Gujranwala Knights
+                  Gujranwala Knights
                 </Link>
               </h4>
             </div>
@@ -330,10 +330,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Logo</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Logo Design For Multan Smashers
+                  Multan Smashers
                 </Link>
               </h4>
             </div>
@@ -353,10 +353,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Logo</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Logo Design For Sialkot Lions
+                  Sialkot Lions
                 </Link>
               </h4>
             </div>
@@ -376,10 +376,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Logo</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Logo Design For Pindi Boys
+                  Pindi Boys
                 </Link>
               </h4>
             </div>
@@ -399,10 +399,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Logo</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Logo Design For Sargodha Shaheens
+                  Sargodha Shaheens
                 </Link>
               </h4>
             </div>
@@ -422,10 +422,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Logo</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Logo Design For PTL
+                  PTL
                 </Link>
               </h4>
             </div>
@@ -445,10 +445,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Graphics Design</span>
+              <span className="sub-title">Logo</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Logo Design For Lahore Stallions
+                  Lahore Stallions
                 </Link>
               </h4>
             </div>
@@ -470,10 +470,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Social Media</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Social Media Post Design For Castle heights
+                  Castle heights
                 </Link>
               </h4>
             </div>
@@ -493,10 +493,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Social Media</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Social Media Post Design For PTC
+                  PTC
                 </Link>
               </h4>
             </div>
@@ -516,10 +516,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Social Media</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Social Media Post Design For Statesmen
+                  Statesmen
                 </Link>
               </h4>
             </div>
@@ -539,10 +539,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Social Media</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Social Media Post Design For Khaas
+                  Khaas
                 </Link>
               </h4>
             </div>
@@ -562,10 +562,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Social Media</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Social Media Post Design For GCC
+                  GCC
                 </Link>
               </h4>
             </div>
@@ -585,10 +585,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Social Media</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Social Media Post Design For Pearl Kami
+                  Pearl Kami
                 </Link>
               </h4>
             </div>
@@ -610,10 +610,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Design &amp; Stationery</span>
+              <span className="sub-title">Stationery</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Stationery Design For Castle Heights
+                  Castle Heights
                 </Link>
               </h4>
             </div>
@@ -633,10 +633,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Design &amp; Stationery</span>
+              <span className="sub-title">Stationery</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Stationery Design For Castle Heights
+                  Castle Heights
                 </Link>
               </h4>
             </div>
@@ -656,10 +656,10 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Design &amp; Stationery</span>
+              <span className="sub-title">Stationery</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Stationery Design For Castle Heights
+                  Castle Heights
                 </Link>
               </h4>
             </div>

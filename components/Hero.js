@@ -19,7 +19,7 @@ const Hero = () => {
                 <b>Shahab Munir</b> Graphic designer
               </h1>
               <p>
-                We are a comprehensive agency offering website design,
+                I am a comprehensive Graphic Designer offering website design,
                 development, and digital marketing services, with a focus on SEO
                 and content marketing strategies aimed at expanding brand
                 presence and recognition.{" "}
@@ -28,6 +28,15 @@ const Hero = () => {
                 <Link legacyBehavior href="/contact">
                   <a className="theme-btn">
                     Hire Me <i className="far fa-angle-right" />
+                  </a>
+                </Link>
+                <Link
+                  legacyBehavior
+                  href="/assets/pdf/shahab-munir-resume.pdf"
+                  target="_blank"
+                >
+                  <a className="read-more">
+                    Download Resume <i className="far fa-angle-right" />
                   </a>
                 </Link>
               </div>
@@ -46,7 +55,10 @@ const Hero = () => {
           <div className="col-lg-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
               <div className="bg-circle" />
-              {/* <img src="assets/images/hero/me.png" alt="Author" /> */}
+              <img
+                src="assets/images/hero/shahab-munir-picture.jpg"
+                alt="Author"
+              />
               <div className="progress-shape">
                 <img
                   src="assets/images/hero/progress-shape.png"

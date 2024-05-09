@@ -9,27 +9,27 @@ const Services = ({ extraClass }) => {
     },
     {
       id: 2,
-      title: "Website Design",
+      title: "Social media Design",
       // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 3,
-      title: "Mobile Application Design",
+      title: "Logo Design ",
       // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 4,
-      title: "Motion Graphics Design",
+      title: "SEO & Digital Marketing ",
       // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 5,
-      title: "Website Development",
+      title: "Web Development ",
       // text: "Dignissimos ducimus blanditiis praesen",
     },
     {
       id: 6,
-      title: "SEO & Digital Marketing",
+      title: "Video Editing",
       // text: "Dignissimos ducimus blanditiis praesen",
     },
   ];

@@ -57,17 +57,17 @@ const SideBar = () => {
           </div>
           {/*Social Icons*/}
           <div className="social-style-one">
-            <a href="#">
-              <i className="fab fa-twitter" />
+            <a href="https://www.linkedin.com/in/shahab-munir-48b208213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <i className="fab fa-linkedin" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/shahabmunir.me">
               <i className="fab fa-facebook-f" />
             </a>
             <a href="#">
               <i className="fab fa-instagram" />
             </a>
-            <a href="#">
-              <i className="fab fa-pinterest-p" />
+            <a href="https://www.behance.net/shahabmunir">
+              <i className="fab fa-behance" />
             </a>
           </div>
         </div>

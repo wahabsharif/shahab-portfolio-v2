@@ -33,21 +33,21 @@ const items = [
   },
   {
     id: 6,
-    name: "Fluter",
-    image: "assets/images/skills/fluter.png",
-    value: "86",
+    name: "Html",
+    image: "assets/images/skills/html.png",
+    value: "56",
   },
   {
     id: 7,
-    name: "Python",
-    image: "assets/images/skills/python.png",
-    value: "62",
+    name: "Css",
+    image: "assets/images/skills/css.png",
+    value: "60",
   },
   {
     id: 8,
-    name: "Next Js",
-    image: "assets/images/skills/next-js.png",
-    value: "94",
+    name: "JavaScript",
+    image: "assets/images/skills/javascript.png",
+    value: "64",
   },
 ];
 
@@ -66,8 +66,8 @@ const Skill = () => {
                   </h2>
                   <p>
                     PhotoShop and Illustrator for graphics, After Effects and
-                    Premiere Pro for video, Flutter and Next.js for web, Python
-                    for programming.{" "}
+                    Premiere Pro for video, wordpress and JavaScript for web,
+                    Html and Css for programming.{" "}
                   </p>
                 </div>
                 <Link legacyBehavior href="/about">

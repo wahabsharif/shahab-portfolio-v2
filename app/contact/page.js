@@ -38,16 +38,16 @@ const page = () => {
                 </div>
                 <h5>Follow Me</h5>
                 <div className="social-style-one mt-10">
-                  <a href="#">
+                  <a href="https://www.facebook.com/shahabmunir.me">
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/shahab-munir-48b208213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                     <i className="fab fa-linkedin-in" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.behance.net/shahabmunir">
                     <i className="fab fa-behance" />
                   </a>
                 </div>
@@ -72,7 +72,7 @@ const page = () => {
                           name="name"
                           className="form-control"
                           defaultValue=""
-                          placeholder="Richard D. Hammond"
+                          placeholder="Shahab Munir"
                           required=""
                           data-error="Please enter your Name"
                         />

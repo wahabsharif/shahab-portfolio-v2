@@ -45,7 +45,7 @@ const Contact = () => {
                         name="name"
                         className="form-control"
                         defaultValue=""
-                        placeholder="Richard D. Hammond"
+                        placeholder="Shahab Munir"
                         required=""
                         data-error="Please enter your Name"
                       />
@@ -194,7 +194,7 @@ export const Contact2 = () => {
                   <a href="#">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.facebook.com/shahabmunir.me">
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
