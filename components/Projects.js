@@ -82,7 +82,7 @@ const Projects = () => {
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
               <img
-                src="assets/images/projects/flayers/flayer-1.png"
+                src="assets/images/projects/flyers/flyer-1.png"
                 alt="Project"
               />
             </div>
@@ -92,11 +92,11 @@ const Projects = () => {
               <span className="sub-title">Product Design</span>
               <h2>
                 <Link legacyBehavior href="projects">
-                  Flayer Design
+                  Flyer Design
                 </Link>
               </h2>
               <p>
-                "Unlock the power of captivating Flayer Designs! Our creations
+                "Unlock the power of captivating Flyer Designs! Our creations
                 blend vibrant colors, compelling typography, and striking
                 visuals to convey your message effectively. Stand out and leave
                 a lasting impression with our attention-grabbing designs."{" "}
