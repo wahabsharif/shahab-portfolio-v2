@@ -96,7 +96,7 @@ const ProjectGridIsotop = () => {
               </Link>
             </div>
             <div className="project-content">
-              <span className="sub-title">Brandign</span>
+              <span className="sub-title">Branding</span>
               <h4>
                 <Link legacyBehavior href="project-details">
                   PTL
@@ -263,6 +263,29 @@ const ProjectGridIsotop = () => {
               <h4>
                 <Link legacyBehavior href="project-details">
                   SHATCO
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item flyers">
+          <div className="project-item style-two wow fadeInUp delay-0-4s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/flyers/flyer-4.jpg"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Flyer</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  LakeShore
                 </Link>
               </h4>
             </div>
@@ -613,7 +636,7 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Stationery</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Castle Heights
+                  Castle Marketing
                 </Link>
               </h4>
             </div>
@@ -636,7 +659,7 @@ const ProjectGridIsotop = () => {
               <span className="sub-title">Stationery</span>
               <h4>
                 <Link legacyBehavior href="project-details">
-                  Castle Heights
+                  Castle Marketing
                 </Link>
               </h4>
             </div>
@@ -660,6 +683,52 @@ const ProjectGridIsotop = () => {
               <h4>
                 <Link legacyBehavior href="project-details">
                   Castle Heights
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item stationary">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/stationery/stationery-8.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Stationery</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Vertex Capital
+                </Link>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 item stationary">
+          <div className="project-item style-two wow fadeInUp delay-0-2s">
+            <div className="project-image">
+              <img
+                src="assets/images/projects/stationery/stationery-9.png"
+                alt="Project"
+              />
+              <Link legacyBehavior href="#">
+                <a className="details-btn">
+                  <i className="far fa-arrow-right" />
+                </a>
+              </Link>
+            </div>
+            <div className="project-content">
+              <span className="sub-title">Stationery</span>
+              <h4>
+                <Link legacyBehavior href="project-details">
+                  Vertex Capital
                 </Link>
               </h4>
             </div>

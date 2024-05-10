@@ -18,7 +18,7 @@ const Clients = () => {
           <Link legacyBehavior href="projects">
             <a className="client-logo-item wow fadeInUp delay-0-2s">
               <img
-                src="assets/images/client-logos/aamir.png"
+                src="assets/images/client-logos/istikhara-qalandar-landscape-white.png"
                 alt="Client Logo"
               />
             </a>

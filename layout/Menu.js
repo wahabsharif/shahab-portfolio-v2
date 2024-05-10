@@ -13,7 +13,7 @@ const MultiMenu = () => {
         <Link href="/services">services</Link>
       </li>
       <li>
-        <Link href="/projects">Projects</Link>
+        <Link href="/projects">Portfolio</Link>
       </li>
       <li>
         <Link href="contact">Contact</Link>

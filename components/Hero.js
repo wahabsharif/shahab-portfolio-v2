@@ -3,7 +3,7 @@ import Counter from "./Counter";
 
 const counterData = [
   { id: 1, text: "Years Of Experience", value: "5", valueType: "plus" },
-  { id: 2, text: "Project Complete", value: "2", valueType: "k-plus" },
+  { id: 2, text: "Project Complete", value: "100", valueType: "plus" },
   { id: 3, text: "Client Satisfactions", value: "99", valueType: "percent" },
 ];
 
@@ -54,17 +54,11 @@ const Hero = () => {
           </div>
           <div className="col-lg-5">
             <div className="author-image-part wow fadeIn delay-0-3s">
-              <div className="bg-circle" />
+              <div />
               <img
-                src="assets/images/hero/shahab-munir-picture.jpg"
+                src="assets/images/hero/shahab-munir-picture.png"
                 alt="Author"
               />
-              <div className="progress-shape">
-                <img
-                  src="assets/images/hero/progress-shape.png"
-                  alt="Progress"
-                />
-              </div>
             </div>
           </div>
         </div>
