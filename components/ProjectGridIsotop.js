@@ -268,7 +268,7 @@ const ProjectGridIsotop = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 item flyers">
+        {/* <div className="col-lg-3 item flyers">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
             <div className="project-image">
               <img
@@ -290,7 +290,7 @@ const ProjectGridIsotop = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Logos */}
         <div className="col-lg-3 item logo">
@@ -688,7 +688,7 @@ const ProjectGridIsotop = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 item stationary">
+        {/* <div className="col-lg-3 item stationary">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img
@@ -710,8 +710,8 @@ const ProjectGridIsotop = () => {
               </h4>
             </div>
           </div>
-        </div>
-        <div className="col-lg-3 item stationary">
+        </div> */}
+        {/* <div className="col-lg-3 item stationary">
           <div className="project-item style-two wow fadeInUp delay-0-2s">
             <div className="project-image">
               <img
@@ -733,7 +733,7 @@ const ProjectGridIsotop = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <div className="col-lg-3 item design marketing apps">
           <div className="project-item style-two wow fadeInUp delay-0-4s">
