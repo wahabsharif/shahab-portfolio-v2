@@ -16,7 +16,7 @@ const Hero = () => {
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
               <span className="h2">Hello, i’m </span>
               <h1>
-                <b>Shahab Munir</b> Graphic designer
+                <b>Shahab Munir</b> Graphic Designer
               </h1>
               <p>
                 I am a comprehensive Graphic Designer offering website design,
